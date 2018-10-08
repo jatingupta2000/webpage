@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.monobox{
+    height: 100px;
+    width:auto;
+    background: url("download.png");
+}
+
+.mono{
+    height: 80px;
+    width: 80px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.monobox p{
+    margin-left: 120px;
+    margin-top: -80px;
+    <link href="https://fonts.googleapis.com/css?family=Kanit" rel="stylesheet">
+    color: orangered;;
+    font-style:italic;
+    font-weight: 500;
+}
+
+.menu{
+    height: 40px;
+    margin-top: 5px;
+    margin-left: auto;
+    background: url("download.png");
+    border-bottom: solid 5px orangered;
+    width:100%;
+}
+a{
+    text-decoration: none;
+    padding: 20px;
+    padding-top: 10px;
+    padding-bottom: 12px;
+    color: red;
+}
+
+.menu ul{
+    list-style:none;
+}
+
+ul li {
+    margin-top: 10px;
+    float: left;
+    font-weight: bold;
+    color: red;
+    margin-left: 40px;
+    text-align: center;
+}
+
+ul li :hover
+{
+    background-color: orangered;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    color: white;
+}
+
+////////////////////// slider /////////////////
+
+.slider image{
+    float: left;
+    margin: 0;
+    padding: 0;
+    display: inline;
+}
+
+.slider{
+    margin: 0;
+    padding: 0;
+    margin-top: 43px;
+    animation-name: jatin;
+    position: relative;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    width:3742px;
+    height: 4000px;
+    overflow: hidden;
+}
+
+@keyframes jatin{
+    0%
+    {
+        left:0px;
+    }
+    30%
+    {
+        left: 0px;
+    }
+    33%
+    {
+        left:-1245px;
+    }
+    63%
+    {
+        left: -1245px;
+    }
+    67%
+    {
+        left:-2490px;
+    }
+    97%
+    {
+        left: -2490px;
+    }
+    100%
+    {
+        left: -3740px;
+    }
+}
+/////////////////////////////////////////////////
