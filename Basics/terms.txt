@@ -1,0 +1,35 @@
+*Syntax:<A HREF="Document name">Hyperlink text</A>
+ #hyperlink Tag
+*Syntax:<BODYLEFTMARGIN="VALUE">..............</BODY>(Value is given in pixels)
+ #left margin
+*Syntax:<BODYTOPMARGIN="VALUE">...............</BODY>(VALUE IS GIVEN IN PIXELS)
+ #Top margin
+*Syntax:<BODY BG COLOR="COLOUR">
+ #Background colour
+*Syntax:<Font Size="VALUE">
+ #Font Size
+*Syntax:<FONTFACE="Font name">
+ #Font
+*Syntax:<B>text</B>
+ #Bold
+*Syntax:<I>text</I>
+ #Italic
+*Syntax:<U>text</U>
+ #Underline
+*Syntax:<BR>
+ #Break
+*Syntax:<CENTER>TEXT</CENTER>
+ #Center
+*CELLPADDING CREATES A DISTANCE BETWEEN THE EDGE OF CELL AND CONTENTOF CELL
+*sYNTAX:(I)<TABLEBORDER=1 BGCOLOR="WHITE" HEIGHT=300 WIDTH=400>
+        (II)<TR HEIGHT=80><TR WIDTH="50%">
+
+ #HEIGHT AND WIDTH OF TABLE
+*CELLPADDING CREATES DISTANCE BETWEEN THE EDGE OF CELL AND THE CONTENT OF CELL
+*Syntax:<P>                   start a new paragraph
+        <P Align="Center">    Align the text in center
+        <P Align="Right">     Align the text in right side
+        <P Align="Left">      Align the text in left side
+        <P Align="Justify">   Align the text from both left and right margins
+*<LI> is for list items
+*<UL> is for Bullets
